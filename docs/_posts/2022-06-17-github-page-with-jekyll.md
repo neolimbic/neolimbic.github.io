@@ -6,7 +6,7 @@ categories: jekyll update
 This is my first post and I want to record how I set up my gihub page using Jekyll here.
 
 ## 1. Installation (on Ubuntu or WSL)
-(Note: refer to [here][jekyll-install].)
+(NOTE: Refer to [here][jekyll-install].)
 
 Install Ruby and other prerequisites:
 ```shell
@@ -117,6 +117,14 @@ You can add your CV page by simply upload a JSON file to `_data` folder as '_dat
   * Add `image:[IMAGE_PATH]` to the front matter in 'index.html'.
   ```shell
   image: /assets/images/bench_in_duck_lake_resized.jpg
+  ```
+
+* Emoji
+  (NOTE: `jemoji` is installed with the `github-pages` gem.)
+  * Add the following to your site's `_config.yml`:
+  ```yml
+  gems:  
+    - jemoji
   ```
 
 * Markdown

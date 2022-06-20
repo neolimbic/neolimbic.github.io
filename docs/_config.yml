@@ -40,6 +40,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-paginate
+  - jemoji
 
 # Pagination - https://jekyllrb.com/docs/pagination/
 paginate: 5
